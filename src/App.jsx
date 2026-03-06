@@ -424,6 +424,12 @@ export default function App() {
           </button>
         </div>
 
+        <div className="compact-content">
+          <div key={active} className="pane-enter">
+            {renderPage()}
+          </div>
+        </div>
+
         <div className="compact-status">
           <StatusBar
             activeFile={active}
