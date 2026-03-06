@@ -5,7 +5,7 @@ export default function AboutPage() {
   useReveal('about')
 
   const focus = [
-    ['🔭', 'Building scalable backend systems & AI integrations at EduVanceAI'],
+    ['🔭', 'Building scalable backend systems & AI integrations at Sparktech'],
     ['🤖', 'Deep interest in NLP, LLMs & ML pipelines'],
     ['🌱', 'Currently exploring RAG, MLOps & Vector Databases'],
     ['💬', 'Talk to me about Python, APIs, Data Science'],
