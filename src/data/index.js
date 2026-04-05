@@ -5,7 +5,7 @@ export const ME = {
   email: "kazimdarifishtiaque@gmail.com",
   phone: "+8801864154939",
   dob: "4th February 2000",
-  bio: "I live at the crossroads of backend engineering, AI/ML, and data science. I build systems that aren't just functional but genuinely intelligent and scalable. I make data stories that non-data people actually get.",
+  bio: "I live at the crossroads of frontend engineering, AI/ML, and data science. I build systems that aren't just functional but genuinely intelligent and scalable. I make data stories that non-data people actually get.",
   bio2: "Hi, Arif on this side! I am an aspiring computer engineer and am curious to learn new things about life every day! Perfection is something I always aim for. Being big on integrity and authenticity is something I always believe in. I enjoy painting, photography, designing, and editing. Growing up, I have always loved spending quality time making music on the keyboard. Glad to see you, cheers! ",
   links: {
     github: "https://github.com/mohammad-ishtiaque",
