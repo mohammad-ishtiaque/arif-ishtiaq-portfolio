@@ -74,10 +74,29 @@ export const PROJECTS = [
     link: "https://github.com/mohammad-ishtiaque/grambix",
     period: "Jun 2025",
   },
-
+  {
+    id: 3, icon: "⚕️", accent: "#ff6fd8",
+    type: "Website · E-commerce · Full Stack",
+    name: "DENTAL WEBSITE - Dental E-commerce Website",
+    desc: "A website by which user can buy dental equipments.",
+    tags: ["Next js", "Redux Toolkit", "Tailwind CSS 4", "Stripe SDK"],
+    link: "https://github.com/mohammad-ishtiaque/dental-website",
+    period: "Mar 2026",
+  },
+  {
+    id: 3, icon: "🏥", accent: "#6c63ff",
+    type: "AI Agent · SaaS · AI Receptionist",
+    name: "MEDICAL-AI-CALLING-AGENT",
+    desc: "A system of Medical Center rely on AI voice agent to perform 24/7 call",
+    tags: ["Python", "Redis", "Openai", "Numpy", "Pandas"],
+    link: "https://github.com/mohammad-ishtiaque/Medical-AI-Receptionist-Calling-Agent",
+    period: "Feb 2026",
+  },
 ];
 
 export const SKILLS = [
+
+  
   {
     group: "Languages",
     items: [
@@ -111,6 +130,17 @@ export const SKILLS = [
       { name: "NumPy", pct: 86, color: "#38bdf8" },
       // { name: "spaCy", pct: 80, color: "#22c55e" },
       // { name: "NLTK", pct: 75, color: "#6366f1" },
+    ],
+  },
+
+  {
+    group: "Frontend & Frameworks",
+    items: [
+      { name: "React Js", pct: 80, color: "#34d399" },
+      { name: "Next Js", pct: 72, color: "#6366f1" },
+      { name: "Tailwind CSS", pct: 78, color: "#22c55e" },
+      { name: "CSS", pct: 75, color: "#38bdf8" },
+
     ],
   },
 
@@ -196,9 +226,9 @@ export const EXPERIENCE = [
     tags: ["Node Js", "Javascript", "Express Js", "MongoDB", " Typescript", "SQL", "Web Applications", "FastAPI", "Python", "Django", "PostgreSQL", "Docker", "AWS", "GenAI", "React"],
   },
   {
-    date: "Jun 2023 - Aug 2023", current: false,
+    date: "Jan 2024 - Nov 2024", current: false,
     role: "Junior Frontend Developer",
-    company: "Softbanch",
+    company: "Softvence",
     location: "Dhaka",
     desc: "Designed UI for a simulation platform and improved user experience through design thinking principles. Delivered research-backed interface improvements that enhanced usability.",
     tags: ["React Js", "Next JS", "Design Thinking", "API Integration"],
