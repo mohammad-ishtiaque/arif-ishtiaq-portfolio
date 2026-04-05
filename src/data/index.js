@@ -140,7 +140,7 @@ export const SKILLS = [
       { name: "Next Js", pct: 72, color: "#6366f1" },
       { name: "Tailwind CSS", pct: 78, color: "#22c55e" },
       { name: "CSS", pct: 75, color: "#38bdf8" },
-
+      { name: "Responsive Design", pct: 88, color: "#22c55e" },
     ],
   },
 
@@ -182,15 +182,15 @@ export const SKILLS = [
     ],
   },
 
-  {
-    group: "Frontend",
-    items: [
-      { name: "React", pct: 80, color: "#38bdf8" },
-      { name: "Next.js", pct: 72, color: "#a855f7" },
-      { name: "TailwindCSS", pct: 85, color: "#34d399" },
-      { name: "Responsive Design", pct: 88, color: "#22c55e" },
-    ],
-  },
+  // {
+  //   group: "Frontend",
+  //   items: [
+  //     { name: "React", pct: 80, color: "#38bdf8" },
+  //     { name: "Next.js", pct: 72, color: "#a855f7" },
+  //     { name: "TailwindCSS", pct: 85, color: "#34d399" },
+      
+  //   ],
+  // },
 
   // {
   //   group: "Design",
