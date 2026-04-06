@@ -6,6 +6,7 @@ export default function AboutPage() {
 
   const focus = [
     ['🔭', 'Building scalable backend systems & AI integrations at Sparktech'],
+    ['🎋', 'Turning ideas into powerful frontend experiences'],
     ['🤖', 'Deep interest in NLP, LLMs & ML pipelines'],
     ['🌱', 'Currently exploring RAG, MLOps & Vector Databases'],
     ['💬', 'Talk to me about Python, APIs, Data Science'],
