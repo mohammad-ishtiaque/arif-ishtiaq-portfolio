@@ -97,7 +97,7 @@ export default function HomePage({ onNavigate }) {
         {/* Role badges */}
         <div className="flex flex-wrap gap-2 mb-4 opacity-0 animate-su-3">
           {[
-            ['#4ec9b0', 'Backend Engineer'],
+            ['#4ec9b0', 'Full Stack Engineer'],
             ['#c586c0', 'AI / ML Dev'],
             ['#4fc1ff', 'Data Scientist'],
           ].map(([color, label]) => (
@@ -124,7 +124,7 @@ export default function HomePage({ onNavigate }) {
         {/* Bio */}
         <p className="text-[14px] text-vscode-dim leading-[1.9] max-w-[520px] mb-7 opacity-0 animate-su-4">
           I live at the crossroads of{' '}
-          <strong className="text-vscode-blue font-medium">backend engineering</strong>,{' '}
+          <strong className="text-vscode-blue font-medium">Full Stack engineering</strong>,{' '}
           <strong className="text-vscode-blue font-medium">AI/ML</strong>, and{' '}
           <strong className="text-vscode-blue font-medium">data science</strong>.
           I build systems that are genuinely{' '}

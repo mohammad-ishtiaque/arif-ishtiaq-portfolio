@@ -28,13 +28,13 @@ export default function AboutPage() {
           Hi! I'm{' '}
           <strong className="text-vscode-blue font-medium">Arif Ishtiaq</strong>
           , a software developer living at the crossroads of{' '}
-          <strong className="text-vscode-blue font-medium">backend engineering</strong>,{' '}
+          <strong className="text-vscode-blue font-medium">Full stack engineering</strong>,{' '}
           <strong className="text-vscode-blue font-medium">AI/ML</strong>, and{' '}
           <strong className="text-vscode-blue font-medium">data science</strong>.
           I love building systems that are not just functional but genuinely{' '}
           <strong className="text-vscode-blue font-medium">intelligent and scalable</strong>.
           Currently a{' '}
-          <strong className="text-vscode-blue font-medium">Junior Software Developer at Sparktech</strong>,
+          <strong className="text-vscode-blue font-medium">Software Developer at Sparktech</strong>,
           building AI integrations and backend systems that power learning experiences for thousands of users daily.
         </p>
       </div>

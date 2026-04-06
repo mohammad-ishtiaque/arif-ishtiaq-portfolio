@@ -1,6 +1,6 @@
 export const ME = {
   name: "Arif Ishtiaq",
-  role: "Junior Software Developer @ Sparktech",
+  role: "Software Developer @ Sparktech",
   location: "Bangladeshi BD",
   email: "kazimdarifishtiaque@gmail.com",
   phone: "+8801864154939",
@@ -75,7 +75,7 @@ export const PROJECTS = [
     period: "Jun 2025",
   },
   {
-    id: 3, icon: "⚕️", accent: "#ff6fd8",
+    id: 3, icon: "⚕️", accent: "#22c55e",
     type: "Website · E-commerce · Full Stack",
     name: "DENTAL WEBSITE - Dental E-commerce Website",
     desc: "A website by which user can buy dental equipments.",
@@ -84,13 +84,31 @@ export const PROJECTS = [
     period: "Mar 2026",
   },
   {
-    id: 3, icon: "🏥", accent: "#6c63ff",
+    id: 4, icon: "🏥", accent: "#38bdf8",
     type: "AI Agent · SaaS · AI Receptionist",
     name: "MEDICAL-AI-CALLING-AGENT",
     desc: "A system of Medical Center rely on AI voice agent to perform 24/7 call",
     tags: ["Python", "Redis", "Openai", "Numpy", "Pandas"],
     link: "https://github.com/mohammad-ishtiaque/Medical-AI-Receptionist-Calling-Agent",
     period: "Feb 2026",
+  },
+  {
+    id: 5, icon: "👷🏼", accent: "#facc15",
+    type: "Website · Frontend · Landing page",
+    name: "We Mama",
+    desc: "A landing page where user can understand which digital service are provided.",
+    tags: ["Next Js", "Tailwind css", "Vercel"],
+    link: "http://github.com/mohammad-ishtiaque/we-mama-website",
+    period: "April 2026",
+  },
+  {
+    id: 6, icon: "📊", accent: "#ef4444",
+    type: "Website · Frontend · Dashboard",
+    name: "Boat for Sale Dashboard",
+    desc: "Admin dashboard from where admin can control the app and see the insight of the users.",
+    tags: ["Typescript", "Tailwind css", "React Js"],
+    link: "https://github.com/mohammad-ishtiaque/bfs-dashboard",
+    period: "April 2026",
   },
 ];
 
@@ -219,11 +237,11 @@ export const PILLS = [
 export const EXPERIENCE = [
   {
     date: "2025 - Present", current: true,
-    role: "Junior Software Developer",
+    role: "Software Developer",
     company: "Sparktech",
     location: "Dhaka",
-    desc: "Building intelligent backend systems and AI integrations for an EdTech platform. ML-powered personalization, RAG pipelines, and scalable APIs serving thousands of learners daily.",
-    tags: ["Node Js", "Javascript", "Express Js", "MongoDB", " Typescript", "SQL", "Web Applications", "FastAPI", "Python", "Django", "PostgreSQL", "Docker", "AWS", "GenAI", "React"],
+    desc: "Building intelligent backend systems and AI integrations with scalable design based on UI/UX for an EdTech platform. ML-powered personalization, RAG pipelines, and scalable APIs serving thousands of learners daily.",
+    tags: ["Node Js", "Javascript", "Express Js", "MongoDB", " Typescript", "React Js", "Next Js", "Tailwind css", "SQL", "Web Applications", "FastAPI", "Python", "Django", "PostgreSQL", "Docker", "AWS", "GenAI", "React"],
   },
   {
     date: "Jan 2024 - Nov 2024", current: false,
