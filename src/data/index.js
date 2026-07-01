@@ -1,6 +1,6 @@
 export const ME = {
   name: "Arif Ishtiaq",
-  role: "Software Developer @ Sparktech",
+  role: "Backend Developer @ Sparktech",
   location: "Bangladeshi BD",
   email: "kazimdarifishtiaque@gmail.com",
   phone: "+8801864154939",
@@ -114,7 +114,7 @@ export const PROJECTS = [
 
 export const SKILLS = [
 
-  
+
   {
     group: "Languages",
     items: [
@@ -123,6 +123,17 @@ export const SKILLS = [
       { name: "JavaScript", pct: 78, color: "#facc15" },
       { name: "TypeScript", pct: 74, color: "#38bdf8" },
       { name: "SQL", pct: 88, color: "#a855f7" },
+    ],
+  },
+
+  {
+    group: "Backend & APIs",
+    items: [
+      { name: "Node js", pct: 90, color: "#7631d1" },
+      { name: "Express js", pct: 80, color: "#f97316" },
+      { name: "FastAPI", pct: 90, color: "#34d399" },
+      { name: "Flask", pct: 82, color: "#6366f1" },
+      { name: "Django", pct: 76, color: "#22c55e" },
     ],
   },
 
@@ -162,21 +173,14 @@ export const SKILLS = [
     ],
   },
 
-  {
-    group: "Backend & APIs",
-    items: [
-      { name: "FastAPI", pct: 90, color: "#34d399" },
-      { name: "Flask", pct: 82, color: "#6366f1" },
-      { name: "Django", pct: 76, color: "#22c55e" },
-    ],
-  },
+
 
   {
     group: "Databases",
     items: [
       { name: "PostgreSQL", pct: 85, color: "#38bdf8" },
       { name: "Redis", pct: 72, color: "#ef4444" },
-      // { name: "Neo4j", pct: 80, color: "#4cceb4" },
+      { name: "MongoDB", pct: 80, color: "#4cceb4" },
     ],
   },
 
@@ -191,10 +195,10 @@ export const SKILLS = [
   {
     group: "DevOps & Tools",
     items: [
+      { name: "AWS", pct: 74, color: "#f97316" },
       { name: "Docker", pct: 80, color: "#38bdf8" },
       { name: "Git", pct: 90, color: "#f97316" },
       { name: "Linux", pct: 88, color: "#facc15" },
-      { name: "AWS", pct: 74, color: "#f97316" },
       { name: "GitHub Actions", pct: 80, color: "#6366f1" },
       { name: "Jupyter", pct: 85, color: "#ff6fd8" },
     ],
@@ -206,7 +210,7 @@ export const SKILLS = [
   //     { name: "React", pct: 80, color: "#38bdf8" },
   //     { name: "Next.js", pct: 72, color: "#a855f7" },
   //     { name: "TailwindCSS", pct: 85, color: "#34d399" },
-      
+
   //   ],
   // },
 
@@ -237,7 +241,7 @@ export const PILLS = [
 export const EXPERIENCE = [
   {
     date: "2025 - Present", current: true,
-    role: "Software Developer",
+    role: "Backend Developer",
     company: "Sparktech",
     location: "Dhaka",
     desc: "Building intelligent backend systems and AI integrations with scalable design based on UI/UX for an EdTech platform. ML-powered personalization, RAG pipelines, and scalable APIs serving thousands of learners daily.",

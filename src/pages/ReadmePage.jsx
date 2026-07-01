@@ -2,15 +2,17 @@ import { ME } from '../data'
 
 export default function ReadmePage() {
   const stackItems = [
-    ['Languages', ['Python', 'TypeScript', 'SQL', 'JavaScript', 'C++']],
+    ['Languages', ['Python', 'SQL', 'JavaScript', 'C++', 'C']],
+    ['Backend', ['Node js', 'Express js', 'FastAPI', 'Flask', 'PostgreSQL', 'Redis', 'MongoDB']],
+    ['Frontend', ['React js', 'Next js', 'Tailwind CSS', 'CSS3', 'HTML']],
     ['AI / ML', ['PyTorch', 'LangChain', 'HuggingFace', 'scikit-learn', 'TensorFlow']],
-    ['Backend', ['FastAPI', 'Flask', 'PostgreSQL', 'Redis']],
     ['DevOps', ['Docker', 'AWS', 'Linux', 'Git']],
   ]
 
   const badges = [
     ['🔵', 'Python', '#3572a5'],
     ['🔷', 'TypeScript', '#3178c6'],
+    ['💜', 'Node js', '#7631d1'],
     ['⚡', 'FastAPI', '#4ec9b0'],
     ['🧠', 'LangChain', '#ff6fd8'],
     ['🐍', 'PyTorch', '#ef4444'],
@@ -55,8 +57,8 @@ export default function ReadmePage() {
 
       <ul className="pl-6 mb-3 space-y-1">
         {[
-          ['🔭', 'Building', 'scalable AI integrations', 'at EduVanceAI'],
-          ['🤖', 'NLP, LLMs, RAG pipelines, Vector DBs', '', ''],
+          ['🔭', 'Building', 'scalable backend system with proper AI integrations', 'at Sparktech'],
+          ['🤖', 'Typescript', 'Node js Express js', 'NLP, LLMs, RAG pipelines, Vector DBs', '', ''],
           ['⚡', 'Making', 'data stories non-data people get', ''],
           ['✨', 'Always learning, always shipping', '', ''],
         ].map(([icon, pre, bold, post], i) => (

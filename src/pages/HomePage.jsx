@@ -47,6 +47,8 @@ const YouTubeIcon = () => (
 export default function HomePage({ onNavigate }) {
   const typed = useTypewriter(TYPEWRITER_LINES)
 
+  const jobTitle = 'Backend Developer'
+
   const socials = [
     { icon: <GitHubIcon />, label: 'GitHub', href: ME.links.github, color: '#e6edf3' },
     { icon: <LinkedInIcon />, label: 'LinkedIn', href: ME.links.linkedin, color: '#0a66c2' },
@@ -97,7 +99,7 @@ export default function HomePage({ onNavigate }) {
         {/* Role badges */}
         <div className="flex flex-wrap gap-2 mb-4 opacity-0 animate-su-3">
           {[
-            ['#4ec9b0', 'Full Stack Engineer'],
+            ['#4ec9b0', 'Backend Developer'],
             ['#c586c0', 'AI / ML Dev'],
             ['#4fc1ff', 'Data Scientist'],
           ].map(([color, label]) => (
@@ -124,7 +126,7 @@ export default function HomePage({ onNavigate }) {
         {/* Bio */}
         <p className="text-[14px] text-vscode-dim leading-[1.9] max-w-[520px] mb-7 opacity-0 animate-su-4">
           I live at the crossroads of{' '}
-          <strong className="text-vscode-blue font-medium">Full Stack engineering</strong>,{' '}
+          <strong className="text-vscode-blue font-medium">Backend Developer</strong>,{' '}
           <strong className="text-vscode-blue font-medium">AI/ML</strong>, and{' '}
           <strong className="text-vscode-blue font-medium">data science</strong>.
           I build systems that are genuinely{' '}
