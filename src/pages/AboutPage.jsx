@@ -28,14 +28,14 @@ export default function AboutPage() {
         <p className="text-[13px] text-vscode-dim leading-[1.9]">
           Hi! I'm{' '}
           <strong className="text-vscode-blue font-medium">Arif Ishtiaq</strong>
-          , a Backend Developer living at the crossroads of{' '}
+          , a Full-Stack Developer living at the crossroads of{' '}
           <strong className="text-vscode-blue font-medium">Full stack engineering</strong>,{' '}
           <strong className="text-vscode-blue font-medium">AI/ML</strong>, and{' '}
           <strong className="text-vscode-blue font-medium">data science</strong>.
           I love building systems that are not just functional but genuinely{' '}
           <strong className="text-vscode-blue font-medium">intelligent and scalable</strong>.
           Currently a{' '}
-          <strong className="text-vscode-blue font-medium">Backend Developer at Sparktech</strong>,
+          <strong className="text-vscode-blue font-medium">Full-Stack Developer at Sparktech</strong>,
           building AI integrations and backend systems that power learning experiences for thousands of users daily.
         </p>
       </div>

@@ -1,6 +1,6 @@
 export const ME = {
   name: "Arif Ishtiaq",
-  role: "Backend Developer @ Sparktech",
+  role: "Full-Stack Developer @ Sparktech",
   location: "Bangladeshi BD",
   email: "kazimdarifishtiaque@gmail.com",
   phone: "+8801864154939",
@@ -57,25 +57,34 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    id: 1, icon: "🛡️", accent: "#ff6fd8",
-    type: "Website · AI · Ed Tech",
-    name: "Mathsbook Website",
-    desc: "Website with three different role School, Teacher, and Student",
-    tags: ["React js", "Node js", "Express js", "MongoDB", "Website"],
-    link: "https://github.com/mohammad-ishtiaque/mathbook",
-    period: "Oct 2025 – Dec 2025",
+    id: 1, icon: "👨🏼‍💼", accent: "#e2b064",
+    type: "Mobile · Management · Backend · Dashboard",
+    name: "FibrePro - Application for managing work, expenses, and invoices",
+    desc: "FibrePro is a simple and effective mobile financial management application designed for freelancers, tradespeople, self-employed entrepreneurs, and small businesses",
+    tags: ["Node js", "Express js", "MongoDB", "React js", "Tailwind css", "Flutter"],
+    link: "https://github.com/mohammad-ishtiaque/many-stack-backend",
+    period: "March 2025",
   },
   {
-    id: 2, icon: "🧠", accent: "#6c63ff",
-    type: "Mobile · Audio Book · Full Stack",
+    id: 2, icon: "📖", accent: "#6c63ff",
+    type: "Mobile · Audio Book · Backend · Dashboard",
     name: "Grambix - UNLIMITED EBOOKS & AUDIOBOOKS",
-    desc: "A proper audio and e-book solution for book lovers.",
-    tags: ["Flutter", "Node js", "Express js", "MongoDB"],
+    desc: "Grambix gives you access to ebooks and audiobooks on AI, business, productivity, health, psychology, personal growth and emerging trends. Discover practical insights, new ideas and future technologies in minutes, not hours.",
+    tags: ["Node js", "Express js", "MongoDB", "React js", "Tailwind css", "Flutter"],
     link: "https://github.com/mohammad-ishtiaque/grambix",
     period: "Jun 2025",
   },
   {
-    id: 3, icon: "⚕️", accent: "#22c55e",
+    id: 3, icon: "🐕", accent: "#f153ea",
+    type: "Mobile · Pet App · Backend · Dashboard",
+    name: "Sansaland - Pet service provider and pet owner management of the pet",
+    desc: "Everything that connects you to your pet, including their appointments, health history, and pet places in your country. You can view your pet’s health records, connect, chat, and book appointments directly with your vet. You can also connect and book appointments with pet groomers, pet hotels, and discover all the pet-friendly places in your country.",
+    tags: ["Node js", "Express js", "MongoDB", "React js", "Tailwind css", "Flutter",],
+    link: "https://github.com/mohammad-ishtiaque/petApp_backend",
+    period: "Feb 2026",
+  },
+  {
+    id: 4, icon: "⚕️", accent: "#22c55e",
     type: "Website · E-commerce · Full Stack",
     name: "DENTAL WEBSITE - Dental E-commerce Website",
     desc: "A website by which user can buy dental equipments.",
@@ -84,7 +93,7 @@ export const PROJECTS = [
     period: "Mar 2026",
   },
   {
-    id: 4, icon: "🏥", accent: "#38bdf8",
+    id: 5, icon: "🏥", accent: "#38bdf8",
     type: "AI Agent · SaaS · AI Receptionist",
     name: "MEDICAL-AI-CALLING-AGENT",
     desc: "A system of Medical Center rely on AI voice agent to perform 24/7 call",
@@ -93,7 +102,7 @@ export const PROJECTS = [
     period: "Feb 2026",
   },
   {
-    id: 5, icon: "👷🏼", accent: "#facc15",
+    id: 6, icon: "👩🏼‍🍼", accent: "#facc15",
     type: "Website · Frontend · Landing page",
     name: "We Mama",
     desc: "A landing page where user can understand which digital service are provided.",
@@ -102,13 +111,24 @@ export const PROJECTS = [
     period: "April 2026",
   },
   {
-    id: 6, icon: "📊", accent: "#ef4444",
+    id: 7, icon: "🚢", accent: "#ef4444",
     type: "Website · Frontend · Dashboard",
     name: "Boat for Sale Dashboard",
     desc: "Admin dashboard from where admin can control the app and see the insight of the users.",
     tags: ["Typescript", "Tailwind css", "React Js"],
     link: "https://github.com/mohammad-ishtiaque/bfs-dashboard",
-    period: "April 2026",
+    period: "Jan 2026",
+  },
+  {
+    id: 8, icon: "🛡️", accent: "#ff6fd8",
+    type: "Website · Backend · Ed Tech · Dashboard",
+    name: "Mathsbook Website",
+    desc: "Website with three different role School, Teacher, and Student",
+    tags: ["React js", "Node js", "Express js", "MongoDB", "Website"],
+    link: "https://github.com/mohammad-ishtiaque/mathbook",
+    liveLink: "",
+    // link: "https://github.com/mohammad-ishtiaque/mathbook",
+    period: "Oct 2025 – Dec 2025",
   },
 ];
 
@@ -241,7 +261,7 @@ export const PILLS = [
 export const EXPERIENCE = [
   {
     date: "2025 - Present", current: true,
-    role: "Backend Developer",
+    role: "Full-Stack Developer",
     company: "Sparktech",
     location: "Dhaka",
     desc: "Building intelligent backend systems and AI integrations with scalable design based on UI/UX for an EdTech platform. ML-powered personalization, RAG pipelines, and scalable APIs serving thousands of learners daily.",

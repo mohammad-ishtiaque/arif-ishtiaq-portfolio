@@ -84,7 +84,7 @@ export default function Terminal({ onClose, onOpenFile }) {
       case 'whoami':
         push([
           { type: 'ok', text: 'arif' },
-          { type: 'out', text: 'Backend Developer @ Sparktech' },
+          { type: 'out', text: 'Full-Stack Developer @ Sparktech' },
           { type: 'out', text: 'Full Stack Engineer · AI/ML Developer · Data Scientist' },
           { type: 'out', text: 'Bangladesh BD  ·  kazimdarifishtiaque@gmail.com' },
         ])
