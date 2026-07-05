@@ -260,7 +260,7 @@ export const PILLS = [
 
 export const EXPERIENCE = [
   {
-    date: "2025 - Present", current: true,
+    date: "2024 - Present", current: true,
     role: "Full-Stack Developer",
     company: "Sparktech",
     location: "Dhaka",
@@ -268,8 +268,8 @@ export const EXPERIENCE = [
     tags: ["Node Js", "Javascript", "Express Js", "MongoDB", " Typescript", "React Js", "Next Js", "Tailwind css", "SQL", "Web Applications", "FastAPI", "Python", "Django", "PostgreSQL", "Docker", "AWS", "GenAI", "React"],
   },
   {
-    date: "Jan 2024 - Nov 2024", current: false,
-    role: "Junior Frontend Developer",
+    date: "Jan 2023 - Feb 2024", current: false,
+    role: "Frontend Developer",
     company: "Softvence",
     location: "Dhaka",
     desc: "Designed UI for a simulation platform and improved user experience through design thinking principles. Delivered research-backed interface improvements that enhanced usability.",
