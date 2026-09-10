@@ -133,7 +133,7 @@ export default function MenuBar({
           <Sep />
           <Item label="Download Resume" onClick={() => act(() => {
             const a = document.createElement('a')
-            a.href = '/resume.pdf'; a.download = 'Arif_Ishtiaq_Resume.pdf'; a.click()
+            a.href = '/Arif_Ishtiaq_Resume.pdf'; a.download = 'Arif_Ishtiaq_Resume.pdf'; a.click()
           })} />
         </MenuDropdown>
       </div>
