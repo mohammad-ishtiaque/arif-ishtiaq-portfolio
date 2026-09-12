@@ -29,7 +29,7 @@ export default function AboutPage() {
           Hi! I'm{' '}
           <strong className="text-vscode-blue font-medium">Arif Ishtiaq</strong>
           , a Full-Stack Developer living at the crossroads of{' '}
-          <strong className="text-vscode-blue font-medium">Full stack engineering</strong>,{' '}
+          <strong className="text-vscode-blue font-medium">Full stack Development</strong>,{' '}
           <strong className="text-vscode-blue font-medium">AI/ML</strong>, and{' '}
           <strong className="text-vscode-blue font-medium">data science</strong>.
           I love building systems that are not just functional but genuinely{' '}

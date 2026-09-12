@@ -61,7 +61,7 @@ export default function HomePage({ onNavigate }) {
   ]
 
   const stats = [
-    ['1+', 'Years'],
+    ['2+', 'Years'],
     ['10+', 'Projects'],
     ['∞', 'Curiosity'],
     ['↑', 'Always Learning'],
@@ -114,7 +114,7 @@ export default function HomePage({ onNavigate }) {
           <div className="inline-flex items-center gap-1.5 px-3 py-1 text-xs
                           border border-vscode-pink/30 rounded-sm text-vscode-pink">
             <span className="w-[7px] h-[7px] rounded-full bg-vscode-pink flex-shrink-0" />
-            @ Sparktech
+            {/* @ Sparktech */}
           </div>
         </div>
 

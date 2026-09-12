@@ -2,7 +2,7 @@ import { ME } from '../data'
 
 export default function ReadmePage() {
   const stackItems = [
-    ['Languages', ['Python', 'SQL', 'JavaScript', 'C++', 'C']],
+    ['Languages', ['JavaScript', 'Python', 'C++', 'C']],
     ['Backend', ['Node js', 'Express js', 'FastAPI', 'Flask', 'PostgreSQL', 'Redis', 'MongoDB']],
     ['Frontend', ['React js', 'Next js', 'Tailwind CSS', 'CSS3', 'HTML']],
     ['AI / ML', ['PyTorch', 'LangChain', 'HuggingFace', 'scikit-learn', 'TensorFlow']],
@@ -10,9 +10,9 @@ export default function ReadmePage() {
   ]
 
   const badges = [
-    ['🔵', 'Python', '#3572a5'],
     ['🔷', 'TypeScript', '#3178c6'],
     ['💜', 'Node js', '#7631d1'],
+    ['🔵', 'Python', '#3572a5'],
     ['⚡', 'FastAPI', '#4ec9b0'],
     ['🧠', 'LangChain', '#ff6fd8'],
     ['🐍', 'PyTorch', '#ef4444'],

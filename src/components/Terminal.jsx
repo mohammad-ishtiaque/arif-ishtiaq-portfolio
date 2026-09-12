@@ -85,7 +85,7 @@ export default function Terminal({ onClose, onOpenFile }) {
         push([
           { type: 'ok', text: 'arif' },
           { type: 'out', text: 'Full-Stack Developer @ Sparktech' },
-          { type: 'out', text: 'Full Stack Engineer · AI/ML Developer · Data Scientist' },
+          { type: 'out', text: 'Full Stack Developer · AI/ML Developer · Data Scientist' },
           { type: 'out', text: 'Bangladesh BD  ·  kazimdarifishtiaque@gmail.com' },
         ])
         break
