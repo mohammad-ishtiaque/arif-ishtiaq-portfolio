@@ -61,7 +61,7 @@ export default function HomePage({ onNavigate }) {
   ]
 
   const stats = [
-    ['2+', 'Years'],
+    ['1+', 'Years'],
     ['10+', 'Projects'],
     ['∞', 'Curiosity'],
     ['↑', 'Always Learning'],

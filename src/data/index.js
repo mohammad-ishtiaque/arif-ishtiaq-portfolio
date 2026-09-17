@@ -260,11 +260,11 @@ export const PILLS = [
 
 export const EXPERIENCE = [
   {
-    date: "2025 - 2026", current: false,
+    date: "Mar 2025 - Aug 2026", current: false,
     role: "Full-Stack Developer",
     company: "Sparktech",
     location: "Dhaka",
-    desc: "Building intelligent backend systems and AI integrations with scalable design based on UI/UX for an EdTech platform. ML-powered personalization, RAG pipelines, and scalable APIs serving thousands of learners daily.",
+    desc: "In this joureny I have been Built intelligent backend systems and AI integrations with scalable design based on UI/UX for an EdTech platform. ML-powered personalization, RAG pipelines, and scalable APIs serving thousands of learners daily.",
     tags: ["Node Js", "Javascript", "Express Js", "MongoDB", " Typescript", "React Js", "Next Js", "Tailwind css", "SQL", "Web Applications", "FastAPI", "Python", "Django", "PostgreSQL", "Docker", "AWS", "GenAI", "React"],
   },
   // {
