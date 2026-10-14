@@ -5,7 +5,8 @@ export default function AboutPage() {
   useReveal('about')
 
   const focus = [
-    ['🔭', 'Building scalable backend systems & AI integrations at Sparktech'],
+    ['🔎', 'Research on Bangla language bias in the social media'],
+    ['🔭', 'Building scalable backend systems & AI integrations'],
     ['🎋', 'Turning ideas into powerful frontend experiences'],
     ['🤖', 'Deep interest in NLP, LLMs & ML pipelines'],
     ['🌱', 'Currently exploring RAG, MLOps & Vector Databases'],

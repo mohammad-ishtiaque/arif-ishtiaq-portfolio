@@ -34,11 +34,22 @@ export const FILES = [
 ];
 
 export const EDUCATION = [
+
   {
     id: 1,
+    university: "Jahangirnagar University",
+    degree: "MAster of Science in Computer Science & Engineering",
+    major: "Majors: Natural Language Processing & Deep Learning (NLP/ML)",
+    // gpa: "CGPA: 3.91",
+    period: "2026 – 2027",
+    location: "Savar, Dhaka, DHK",
+    icon: "🎓",
+  },
+  {
+    id: 2,
     university: "Gono University",
     degree: "Bachelor of Science in Computer Science & Engineering",
-    minor: "Minors: Artificial Intelligence & Machine Learning (AI/ML)",
+    major: "Majors: Artificial Intelligence & Machine Learning (AI/ML)",
     // gpa: "CGPA: 3.91",
     period: "2021 – 2025",
     location: "Nolam, Dhaka, DHK",
@@ -260,7 +271,7 @@ export const PILLS = [
 
 export const EXPERIENCE = [
   {
-    date: "Mar 2025 - Aug 2026", current: false,
+    date: "Mar 2025 - Oct 2026", current: true,
     role: "Full-Stack Developer",
     company: "Sparktech",
     location: "Dhaka",
